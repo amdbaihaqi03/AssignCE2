@@ -109,4 +109,3 @@ if st.button(" Run All Trials"):
         schedule_df = run_genetic_algorithm_with_data(co_r, mut_r, data, program_col)
         st.dataframe(schedule_df, use_container_width=True)
         st.write(f"*Summary:* {schedule_df['Program'].nunique()} unique programs scheduled.")
-        
