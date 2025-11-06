@@ -34,7 +34,7 @@ def run_genetic_algorithm_with_data(co_r, mut_r, data, program_col):
 # -----------------------------------
 st.title(" Genetic Algorithm Scheduler – Multiple Trials (GitHub Data)")
 
-file_path = "program_ratings (1).csv"
+file_path = "program_ratings.csv"
 data = pd.read_csv(file_path)
 st.success(f" Dataset loaded successfully from: {file_path}")
 
